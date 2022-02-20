@@ -11,13 +11,13 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 @SpringBootApplication
-public class JerseyExampleApplication {
+public class JerseyDemoApplication {
 
     @Autowired
     private EmployeeDAO dao;
 
     public static void main(String[] args) {
-        SpringApplication.run(JerseyExampleApplication.class, args);
+        SpringApplication.run(JerseyDemoApplication.class, args);
     }
 
     @PostConstruct
